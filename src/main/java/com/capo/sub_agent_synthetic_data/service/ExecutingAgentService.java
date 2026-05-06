@@ -70,6 +70,8 @@ public class ExecutingAgentService {
 	    );
 	}
 	
+	
+	
 	private String getTokenMessage(ChatResponse chatResponse) {
 	    if (chatResponse == null || chatResponse.getResult() == null) {
 	        return "";
